@@ -1,54 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: cursive;
-  }
-
-
-body {
-    background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
 }
-.nav-bar
-{
-display: flexbox;
-flex-wrap: wrap;
-padding: 20px;
-margin: 50px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-background-color: rgb(47, 46, 131);
-border-color: gray;
-border-width: 10px;
-border-style: solid;
-}
+
 
 header {
-    padding: 10px 15px 20px 25px;
-  }
+  background-color: #0c0c0c;
+  margin-bottom: 0;
+  padding-top: 0;
 
-
-ul
-{
-    display: inline-flex;
-    padding: 8px;
+}
+.nav-bar {
+padding-left: 400px;
+margin: 0 0 0 0;
 }
 
-nav li {
-margin: 20px;
-float: right;
+.hero {
+  background-image: url('../images/Outer-Space-Wallpapers-High-Quality.jpeg');
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  image-resolution: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  margin: 0;
+  display: inline;
+}
+a {
+  color: #ffffff;
+
+}
+div {
+  display: block;
+  padding: 25px 25px 25px 25px;
+  
+}
+
+ul {
+padding: 5px 5px 40px 50px;
 display: inline;
-
-
 }
 
-
-.nav-headers
-{
-
-
-color: rgb(123, 123, 148);
-
-}
-
-section {
-    padding: 60px;
+li {
+  display: inline-flex;
+  padding: 20px 30px 10px 10px;
+  margin: auto;
+  
+  
 }
