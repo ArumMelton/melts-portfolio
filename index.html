@@ -1,97 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/style.css" rel="stylesheet">
-    <title>Arum Melton's Professional Portfolio</title>
+<title>Arum Melton Developer Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-<header class="header">
-    <h1>
-        <a href="/">Arum Melton</a>
-    </h1>
-<nav class="nav-bar">
-    
-    <ul>
-        <li>
-            <h2>
-            <a href="#about-me" class="nav-headers">About Me</a>
-            </h2>
-        </li>
-        <li>
-            <h2>
-            <a href="#projects" class="nav-headers">Projects</a>
-            </h2>
-        </li>
-        <li>
-            <h2>
-           <a href="#linkedin" class="nav-headers">Linkedin</a>
-            </h2>
-        </li>
-        <li>
-            <h2>
-            <a href="#resume" class="nav-headers">Resume</a>
-            </h2>
-        </li>
-        <li>
-            <h2>
-            <a href="#contact-me" class="nav-headers">Contact Me</a>
-            </h2>
-        </li>
-    </ul>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" style="background-color:black ;">
+  <!-- Avatar image in top left corner -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-opacity">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-opacity">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hover-opacity">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+      </svg>
+    <p>RESUME</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-opacity">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
 </nav>
-</header>
 
-<section class="hero">
-
-</section>
-
-<section id="about-me">
-    <div class="flex-row">
-
-        <h2>About Me</h2>
-
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
 </div>
-</section>
-<section id="projects">
-    <div class="flex-row">
 
-        <h2>Projects</h2>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Arum Melton</span></h1>
+    <p>FULL STACK SOFTWARE DEVELOPER</p>
+    <img src="./assets/images/ArumProfile.jpg" alt="boy" class="w3-image" width="400" height="650">
+  </header>
 
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Arum Melton</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Hello! My name is Arum Melton. I have been in software development since April of 2022. I am certified for full stack development and enjoy working on every part of software,
+     however my talents are stronger in front-end development. I attended North Carolina State University (Go Pack!) and studied film. Outside of software, I am a music producer, DJ, 
+     and audio engineer (specializing in electronic music), freelance videographer/photographer, and content-creator. I enjoy sports and spending time outdoors with friends as well.
+     I have included some of my work below to sample. Enjoy!
+    </p>
+    <section style="margin-top: 100px;">
+    <h2 class="w3-padding-16 w3-text-light-grey" id="projects">My Projects</h2>
+    <hr style="width:200px; margin-bottom: 40px; " class="w3-opacity">
+    <a href="https://arummelton.github.io/check-this-weather/">
+    <button id="close" class="closing" onClick="javascript:close_clip()"><img src="./assets/images/Check This Weather Mock.png" height="auto" width="900px"  style="border-style:solid; color: black"/></button>
+    </a>
+  </section>
+  <section>
+    <a href="https://arummelton.github.io/Quizless/">
+      <button id="proj-buttons" class="closing" onClick="javascript:close_clip()"><img src="./assets/images/quizmock1.jpg" height="auto" width="286.4px"  style="border-style:solid; color: black"/></button>
+      </a>
+      <a href="https://arummelton.github.io/schedule-me/">
+        <button id="proj-buttons" class="closing" onClick="javascript:close_clip()"><img src="./assets/images/schedmock1.jpg" height="auto" width="286.4px"  style="border-style:solid; color: black"/></button>
+        </a>
+        <a href="https://arummelton.github.io/pass-the-word/">
+          <button id="proj-buttons" class="closing" onClick="javascript:close_clip()"><img src="./assets/images/passmock1.jpg" height="auto" width="286.4px"  style="border-style:solid; color: black"/></button>
+        </a>
+        </section>
+    </div>
+<br>
+    <button id="resume" class="w3-button w3-light-grey w3-padding-large w3-section" style="margin-left: 40%;">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+   
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Raleigh, North Carolina, US</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: arummelton95@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
 </div>
-</section>
 
-<section id="linkedin">
-    <div class="flex-row">
-
-        <h2>Linkedin</h2>
-
-</div>
-</section>
-
-<section id="resume">
-    <div class="flex-row">
-
-        <h2>Resume</h2>
-
-</div>
-</section>
-
-<section id="contact-me">
-    <div class="contact-form">
-        <h3>Contact Me</h3>
-        <form>
-          <label for="contact-name">Your Name</label>
-          <input type="text" id="contact-name" placeholder="Your Name" />
-
-          <label for="contact-message">Message</label>
-          <textarea id="contact-message" placeholder="Message"></textarea>
-
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-</section>
 </body>
 </html>

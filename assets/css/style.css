@@ -1,62 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-decoration: none;
+body, h1,h2,h3,h4,h5,h6 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-
-header {
-  background-color: #0c0c0c;
-  margin-bottom: 0;
-  padding-top: 0;
-
+.w3-row-padding img {
+margin-bottom: 12px
 }
-.nav-bar {
-padding-left: 400px;
-margin: 0 0 0 0;
+#proj-buttons {
+margin-top: 10px;
 }
-
-.hero {
-  background-image: url('../images/Outer-Space-Wallpapers-High-Quality.jpeg');
-  height: 300px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  image-resolution: 100%;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+#main {
+margin-left: 120px
 }
-
-
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #000000;
-  margin: 0;
-  display: inline;
-}
-a {
-  color: #ffffff;
-
-}
-div {
-  display: block;
-  padding: 25px 25px 25px 25px;
-  
-}
-
-ul {
-padding: 5px 5px 40px 50px;
-display: inline;
-}
-
-li {
-  display: inline-flex;
-  padding: 20px 30px 10px 10px;
-  margin: auto;
-  
-  
-}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px)
+{#main {margin-left: 0}}
