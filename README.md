@@ -9,7 +9,9 @@ SO THAT I can review samples of their work and assess whether they're a good can
 In order to be more attractive in the job market, any professional that helps create product needs a professional portfolio in which to display their work.
 ## Demo
 ![screenshot](./assets/images/Portfolio%20Demo.png)
-### Deployed Application
+### Deployed Application: 
+https://arummelton.github.io/melts-portfolio/
 
 
 ### GitHub Repo:
+https://github.com/ArumMelton/melts-portfolio
