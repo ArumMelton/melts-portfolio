@@ -1,0 +1,58 @@
+body, h1,h2,h3,h4,h5,h6 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+background-color: black;
+}
+
+
+
+.w3-row-padding img {
+margin-bottom: 12px
+}
+
+.project-container {
+
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    margin-right: 30%;
+
+}
+.large-proj {
+    border: 2px lightblue solid;
+}
+
+
+.proj-buttons {
+    box-sizing: border-box;
+    border-style: solid;
+    color: black;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px lightblue solid;
+
+    }
+
+
+div.small-proj {
+flex-direction: row;
+align-items: flex-start;
+display: flex;
+flex-wrap:wrap;
+margin-top: 3px;
+}
+
+footer i {
+margin: 10px;
+color: whitesmoke;
+}
+
+#main {
+margin-left: 120px
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px)
+{#main {margin-left: 0}}
